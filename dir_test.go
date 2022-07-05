@@ -69,9 +69,9 @@ func TestWithSubDirs(t *testing.T) {
 		subDirCount int
 	}
 	tests := []struct {
-		name            string
-		args            args
-		wantErr         bool
+		name    string
+		args    args
+		wantErr bool
 	}{
 		{
 			name:    "create temp dir with 1 sub dirs",
