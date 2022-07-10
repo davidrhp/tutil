@@ -1,4 +1,4 @@
-package main
+package tutil
 
 import (
 	"errors"
